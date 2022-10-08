@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Counter Tools</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Current Count :</h1>
+      <h2 id="count-el">0</h2>
+      <div class="button-flex">
+        <button id="increment-btn" class="btn" onclick="increment()">
+          Increment
+        </button>
+        <button id="decrement-btn" class="btn" onclick="decrement()">
+          Decrement
+        </button>
+        <button id="save-btn" class="btn" onclick="save()">Save</button>
+      </div>
+      <p id="save-el">Previous entries : <span></span></p>
+      <p id="counter-alert"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
